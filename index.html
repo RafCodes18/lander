@@ -372,6 +372,15 @@
         }
     </style>
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4Z05S4889Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4Z05S4889Y');
+</script>
 <body>
     <!-- Particle Animation -->
     <div class="particles" id="particles"></div>
@@ -391,7 +400,7 @@
             <p>The #1 Gooning platform in the world.</p>
             
             <div class="countdown">
-                <h2>Coming July 27th, 2025</h2>
+                <h2>Coming October 31st, 2025</h2>
                 <div class="timer">
                     <div class="time-unit">
                         <span class="time-value" id="days">00</span>
@@ -443,7 +452,7 @@
         
         // Countdown Timer
         function updateCountdown() {
-            const launchDate = new Date('July 27, 2025 00:00:00').getTime();
+            const launchDate = new Date('October 31, 2025 00:00:00').getTime();
             const now = new Date().getTime();
             const difference = launchDate - now;
             
